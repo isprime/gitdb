@@ -5,41 +5,23 @@ Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.
 Uploaders: TANIGUCHI Takaki <takaki@debian.org>
 Build-Depends: debhelper (>= 8.0.0)
 	,python-all-dev
-	,python3-all-dev
 	,python-setuptools
-	,python3-setuptools
 	,git
 	,python-nose
-	,python3-nose
 	,python-smmap
-	,python3-smmap
 Standards-Version: 3.9.6
 Homepage: https://github.com/gitpython-developers/gitdb
-Vcs-Git: git://anonscm.debian.org/python-modules/packages/python-gitdb.git
-Vcs-Browser: https://anonscm.debian.org/cgit/python-modules/packages/python-gitdb.git
+Vcs-Svn: svn://anonscm.debian.org/python-modules/packages/python-gitdb/trunk/
+Vcs-Browser: http://anonscm.debian.org/viewvc/python-modules/packages/python-gitdb/trunk/
 
 Package: python-gitdb
 Architecture: any
-Depends: python-smmap, ${python:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Depends: python-smmap, ${python:Depends},
+ ${shlibs:Depends}, ${misc:Depends}
 Provides: ${python:Provides}
-Description: pure-Python git object database (Python 2)
+Description: pure-Python git object database
  The GitDB project implements interfaces to allow read and write access to
  git repositories. In its core lies the db package, which contains all
  database types necessary to read a complete git repository. These are
  the LooseObjectDB, the PackedDB and the ReferenceDB which are combined
  into the GitDB to combine every aspect of the git database.
- .
- This package for Python 2.
-
-Package: python3-gitdb
-Architecture: any
-Depends: python-smmap, ${python3:Depends}, ${shlibs:Depends}, ${misc:Depends}
-Provides: ${python3:Provides}
-Description: pure-Python git object database (Python 3)
- The GitDB project implements interfaces to allow read and write access to
- git repositories. In its core lies the db package, which contains all
- database types necessary to read a complete git repository. These are
- the LooseObjectDB, the PackedDB and the ReferenceDB which are combined
- into the GitDB to combine every aspect of the git database.
- .
- This package for Python 3.
