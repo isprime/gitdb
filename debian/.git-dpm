@@ -1,0 +1,11 @@
+# see git-dpm(1) from git-dpm package
+8cec4508bbd5ea178bfcf88a6ea4e41274d0482d
+8cec4508bbd5ea178bfcf88a6ea4e41274d0482d
+8cec4508bbd5ea178bfcf88a6ea4e41274d0482d
+8cec4508bbd5ea178bfcf88a6ea4e41274d0482d
+python-gitdb_0.6.4.orig.tar.gz
+21cbba28199802e73e0c4a83b7c02369bbf8c7d7
+400506
+debianTag="debian/%e%v"
+patchedTag="patched/%e%v"
+upstreamTag="upstream/%e%u"
